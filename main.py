@@ -9,7 +9,6 @@ class Iterator:
     def __next__(self):
         self.idx += 1
         try:
-
             return self.data[self.idx - 1]
 
         except IndexError:
@@ -32,5 +31,4 @@ print(type(iterator))
 print(iterator)
 print(iterator.__next__())
 print(iterator.__next__())
-
 print(iterator.__next__())

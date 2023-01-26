@@ -11,6 +11,9 @@ class MyDict:
     def get(self, key, default):
         return self.dict.get(key, default)
 
+    def __iter__(self):
+        return iter(self.dict)
+
     def __str__(self):
         return str(self.dict)
 
@@ -25,3 +28,6 @@ print(dict1["key2"])
 print(dict1.get("key1", 2))
 print(dict1.get("key2", 1))
 print(dict1.get("key3", "default value"))
+
+for i, v in enumerate(dict1):
+    print(i, v)

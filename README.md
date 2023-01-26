@@ -1,4 +1,15 @@
-# python_eco
+# Python_Project
 
-python 생태계 코드 스타일 가이드 툴인 
-pylint, flake8, black, pre-commit(git hook) 를 설치하고 직접 실행해본 repo
+[Python을 이해하기 위한 프로젝트]
+
+1.Python 생태계 코드 스타일 가이드 툴
+- pylint, flake8, black, pre-commit(git hook) 를 설치하고 실행
+
+
+2.iterator, iterable 구현
+- __next__와 __iter__를 사용하여 구현
+
+
+3.Special method
+- 내장 자료구조를 special method를 통해 구현
+  - list 구현

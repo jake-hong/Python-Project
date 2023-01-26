@@ -1,6 +1,6 @@
 # Python_Project
 
-[Python을 이해하기 위한 프로젝트]
+[Python을 이해하기 위한 실습형 프로젝트]
 
 1.Python 생태계 코드 스타일 가이드 툴
 - pylint, flake8, black, pre-commit(git hook) 를 설치하고 실행

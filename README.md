@@ -12,4 +12,5 @@
 
 3.Special method
 - 내장 자료구조를 special method를 통해 구현
-  - list 구현
+  - MyList 구현
+  - MyDict 구현

@@ -24,9 +24,15 @@ while True:
     http_response = b"""
 HTTP/1.1 200 OK
 
-Hello, World!
-"""
-
+<html>
+    <head>
+        <title>Hello, World!</title>
+    </head>
+    <body>
+        <h1>Hello, World!</h1>
+    </body>
+</html>
+    """
     client_connection.sendall(http_response)
     client_connection.close()
 
